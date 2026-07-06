@@ -1,102 +1,106 @@
-
-# Definition of Ready (DoR)
+# Definition of Done (DoD)
 
 ## Purpose
 
-The Definition of Ready (DoR) establishes the minimum criteria that a Product Backlog Item (PBI) must meet before it is selected for Sprint Planning. This helps the Scrum Team begin development with a shared understanding of the work, reducing ambiguity and improving sprint predictability.
+The Definition of Done (DoD) defines the quality standards that every Product Backlog Item (PBI) must satisfy before it is considered complete. It ensures consistent delivery, reduces technical debt, and maintains a high-quality product increment at the end of every sprint.
 
 ---
 
-# Definition of Ready Checklist
+# Definition of Done Checklist
 
-A Product Backlog Item is considered **Ready** when the following criteria are met:
+A User Story is considered **Done** only when all the following criteria have been met:
 
-| Criteria                                                | Status |
-| ------------------------------------------------------- | ------ |
-| Business value is clearly defined                       | ✅      |
-| User story follows the INVEST principle                 | ✅      |
-| Acceptance criteria are documented                      | ✅      |
-| Story is small enough to be completed within one sprint | ✅      |
-| Story has been estimated by the Development Team        | ✅      |
-| Dependencies have been identified                       | ✅      |
-| Risks and assumptions have been discussed               | ✅      |
-| UX/UI designs are available (if applicable)             | ✅      |
-| Required APIs or technical specifications are available | ✅      |
-| Test considerations are understood                      | ✅      |
-| Product Owner has prioritized the story                 | ✅      |
-| Team has no major unanswered questions                  | ✅      |
+| Criteria                                       | Status |
+| ---------------------------------------------- | ------ |
+| Development completed                          | ✅      |
+| Code reviewed and approved                     | ✅      |
+| Unit testing completed                         | ✅      |
+| Acceptance criteria satisfied                  | ✅      |
+| Integration testing completed                  | ✅      |
+| No Critical or High severity defects remain    | ✅      |
+| Product Owner has accepted the story           | ✅      |
+| Documentation updated                          | ✅      |
+| Deployment completed in the target environment | ✅      |
+| No open blockers remain                        | ✅      |
 
 ---
 
-# User Story Template
+# Quality Standards
 
-**As a** Patient
+Every completed story must:
 
-**I want** to book an appointment online
-
-**So that** I can schedule a consultation without visiting the hospital.
-
----
-
-# Example Acceptance Criteria
-
-* Patient can search for doctors by specialty.
-* Patient can view available time slots.
-* Patient can book an available appointment.
-* Confirmation is displayed after successful booking.
-* Appointment details are stored in the system.
+* Meet all acceptance criteria.
+* Follow coding standards and best practices.
+* Pass automated and manual testing.
+* Be free from Critical and High priority defects.
+* Be reviewed through peer code review.
+* Be successfully integrated into the main branch.
+* Be deployable without manual intervention where possible.
 
 ---
 
-# Backlog Refinement Expectations
+# Testing Requirements
 
-During Backlog Refinement, the Scrum Team should:
+The following testing activities should be completed before marking a story as Done:
 
-* Clarify business requirements.
-* Review acceptance criteria.
-* Identify dependencies.
-* Discuss technical approach.
-* Estimate effort using Story Points.
-* Split large stories when required.
-* Remove ambiguities before Sprint Planning.
+* Unit Testing
+* Integration Testing
+* Functional Testing
+* Regression Testing (where applicable)
+* User Acceptance Validation
+* Smoke Testing after deployment
+
+---
+
+# Documentation Requirements
+
+The following artifacts should be updated as applicable:
+
+* Technical documentation
+* API documentation
+* Release notes
+* User guides
+* Test evidence
+* Deployment notes
 
 ---
 
 # Responsibilities
 
-### Product Owner
+## Development Team
 
-* Defines business value.
-* Prioritizes backlog items.
-* Confirms acceptance criteria.
+* Complete development.
+* Perform peer reviews.
+* Execute unit testing.
+* Resolve identified defects.
 
-### Development Team
+## Product Owner
 
-* Reviews technical feasibility.
-* Estimates effort.
-* Identifies dependencies and risks.
+* Verify business requirements.
+* Validate acceptance criteria.
+* Accept completed work.
 
-### Scrum Master
+## Scrum Master
 
-* Facilitates refinement sessions.
-* Ensures DoR is consistently applied.
-* Removes impediments affecting backlog readiness.
+* Ensure the Definition of Done is consistently followed.
+* Facilitate transparency during Sprint Reviews.
+* Support continuous improvement through Retrospectives.
 
 ---
 
 # Benefits
 
-Following the Definition of Ready helps the team:
+Applying the Definition of Done helps the team:
 
-* Reduce requirement ambiguity.
-* Improve Sprint Planning effectiveness.
+* Deliver high-quality increments.
+* Improve customer confidence.
+* Reduce production defects.
+* Minimize technical debt.
 * Increase sprint predictability.
-* Minimize rework.
-* Strengthen collaboration between the Product Owner and Development Team.
-* Deliver value more consistently.
+* Support continuous delivery.
 
 ---
 
-# Review
+# Continuous Improvement
 
-The Definition of Ready should be reviewed periodically during Sprint Retrospectives and updated whenever the team's working practices evolve.
+The Definition of Done is reviewed periodically during Sprint Retrospectives and refined based on team feedback, quality metrics, and evolving engineering practices.
