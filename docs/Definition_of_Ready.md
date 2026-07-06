@@ -1,135 +1,101 @@
+# Definition of Ready (DoR)
 
-# Product Roadmap – Healthcare Appointment System
+## Purpose
 
-## Product Vision
-
-Deliver a secure, scalable, and user-friendly healthcare appointment platform that improves patient experience, optimizes doctor scheduling, and supports digital transformation for healthcare providers.
-
----
-
-# Release Strategy
-
-The product will be delivered incrementally using Scrum with 2-week sprints. Each release introduces new business capabilities while maintaining product quality and stakeholder feedback.
+The Definition of Ready (DoR) establishes the minimum criteria that a Product Backlog Item (PBI) must meet before it is selected for Sprint Planning. This helps the Scrum Team begin development with a shared understanding of the work, reducing ambiguity and improving sprint predictability.
 
 ---
 
-# Release 1.0 – Foundation
+# Definition of Ready Checklist
 
-**Objective:** Establish the core platform.
+A Product Backlog Item is considered **Ready** when the following criteria are met:
 
-### Features
-
-* Patient Registration
-* Secure Login
-* User Authentication
-* Role-Based Access (Patient, Doctor, Admin)
-* Basic Dashboard
-
-**Business Outcome**
-
-* Users can securely access the application.
-* Foundation established for future enhancements.
-
----
-
-# Release 2.0 – Appointment Management
-
-**Objective:** Enable appointment booking and scheduling.
-
-### Features
-
-* Search Doctors
-* View Doctor Availability
-* Book Appointment
-* Cancel Appointment
-* Reschedule Appointment
-
-**Business Outcome**
-
-* Patients can independently manage appointments online.
-* Reduced manual scheduling effort.
+| Criteria                                                | Status |
+| ------------------------------------------------------- | ------ |
+| Business value is clearly defined                       | ✅      |
+| User story follows the INVEST principle                 | ✅      |
+| Acceptance criteria are documented                      | ✅      |
+| Story is small enough to be completed within one sprint | ✅      |
+| Story has been estimated by the Development Team        | ✅      |
+| Dependencies have been identified                       | ✅      |
+| Risks and assumptions have been discussed               | ✅      |
+| UX/UI designs are available (if applicable)             | ✅      |
+| Required APIs or technical specifications are available | ✅      |
+| Test considerations are understood                      | ✅      |
+| Product Owner has prioritized the story                 | ✅      |
+| Team has no major unanswered questions                  | ✅      |
 
 ---
 
-# Release 3.0 – Notifications & Reporting
+# User Story Template
 
-**Objective:** Improve communication and operational visibility.
+**As a** Patient
 
-### Features
+**I want** to book an appointment online
 
-* Email Notifications
-* SMS Appointment Reminders
-* Appointment History
-* Reports & Analytics
-* Admin Dashboard
-
-**Business Outcome**
-
-* Fewer missed appointments.
-* Better operational reporting.
+**So that** I can schedule a consultation without visiting the hospital.
 
 ---
 
-# Release 4.0 – Advanced Capabilities
+# Example Acceptance Criteria
 
-**Objective:** Enhance user experience and scalability.
-
-### Features
-
-* Video Consultation (Future)
-* AI-based Doctor Recommendations
-* Mobile Application Support
-* Calendar Integration
-* Feedback & Ratings
-
-**Business Outcome**
-
-* Improved patient engagement.
-* Enhanced digital healthcare experience.
+* Patient can search for doctors by specialty.
+* Patient can view available time slots.
+* Patient can book an available appointment.
+* Confirmation is displayed after successful booking.
+* Appointment details are stored in the system.
 
 ---
 
-# High-Level Timeline
+# Backlog Refinement Expectations
 
-| Quarter | Focus Area                | Planned Outcome                           |
-| ------- | ------------------------- | ----------------------------------------- |
-| Q1      | Platform Foundation       | Secure user access and core setup         |
-| Q2      | Appointment Management    | Online appointment booking and scheduling |
-| Q3      | Notifications & Reporting | Improved communication and reporting      |
-| Q4      | Advanced Features         | Scalability and enhanced user experience  |
+During Backlog Refinement, the Scrum Team should:
 
----
-
-# Dependencies
-
-* User Authentication Service
-* Notification Service (Email/SMS)
-* Hospital Management System Integration
-* Calendar Integration
-* Database Availability
+* Clarify business requirements.
+* Review acceptance criteria.
+* Identify dependencies.
+* Discuss technical approach.
+* Estimate effort using Story Points.
+* Split large stories when required.
+* Remove ambiguities before Sprint Planning.
 
 ---
 
-# Risks
+# Responsibilities
 
-* Delays in third-party integrations
-* Changes in regulatory requirements
-* Infrastructure availability
-* Security vulnerabilities
-* Resource availability
+### Product Owner
+
+* Defines business value.
+* Prioritizes backlog items.
+* Confirms acceptance criteria.
+
+### Development Team
+
+* Reviews technical feasibility.
+* Estimates effort.
+* Identifies dependencies and risks.
+
+### Scrum Master
+
+* Facilitates refinement sessions.
+* Ensures DoR is consistently applied.
+* Removes impediments affecting backlog readiness.
 
 ---
 
-# Success Measures
+# Benefits
 
-* 95% successful appointment bookings
-* 99.9% system availability
-* Reduced appointment scheduling time
-* Improved patient satisfaction
-* Increased adoption of online appointment booking
+Following the Definition of Ready helps the team:
+
+* Reduce requirement ambiguity.
+* Improve Sprint Planning effectiveness.
+* Increase sprint predictability.
+* Minimize rework.
+* Strengthen collaboration between the Product Owner and Development Team.
+* Deliver value more consistently.
 
 ---
 
-# Agile Delivery Approach
+# Review
 
-The roadmap is reviewed regularly with stakeholders during Sprint Reviews and Product Roadmap discussions. Priorities may change based on business value, customer feedback, and market needs, ensuring continuous delivery of the highest-value features.
+The Definition of Ready should be reviewed periodically during Sprint Retrospectives and updated whenever the team's working practices evolve.
